@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tankstelle Oberholzner | Autowäsche</title>
+    <meta name="description" content="Autowäsche der Tankstelle Oberholzner mit sechs Waschprogrammen und Sauger-Angebot in Donauwörth." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css?v=27" />
+  </head>
+  <body>
+    <header class="fixed inset-x-0 top-0 z-50 pt-4">
+      <div class="shell glass-nav nav-shell rounded-[28px] px-3 py-3 sm:px-4">
+        <div class="header-layout" data-site-menu-root>
+          <a href="index.html" class="inline-flex items-center">
+            <img src="bilder/Firmenlogo.svg" alt="Tankstelle Oberholzner Logo" class="logo-image" />
+          </a>
+
+          <p class="header-title lg:hidden">Autowäsche</p>
+
+          <nav class="hidden items-center justify-center gap-1 lg:flex">
+            <a class="page-nav-link" href="index.html">Übersicht</a>
+            <a class="page-nav-link active" href="waschstrasse.html">Autowäsche</a>
+            <a class="page-nav-link" href="kraftstoffe.html">Kraftstoffe</a>
+            <a class="page-nav-link" href="service247.html">24/7 Tankstelle</a>
+            <a class="page-nav-link" href="shop.html">Shop</a>
+            <a class="page-nav-link" href="kontakt.html">Kontakt</a>
+          </nav>
+
+          <div class="header-actions">
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Zum dunklen Modus wechseln" aria-pressed="false">
+              <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" d="M12 3v2.2M12 18.8V21M4.93 4.93l1.56 1.56M17.51 17.51l1.56 1.56M3 12h2.2M18.8 12H21M4.93 19.07l1.56-1.56M17.51 6.49l1.56-1.56" /><circle cx="12" cy="12" r="4.2" /></svg>
+              <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.8 6.8 0 0 0 9.8 9.8Z" /></svg>
+            </button>
+            <div class="relative lg:hidden">
+            <button id="site-menu-button" class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" /></svg>
+            </button>
+
+            <div id="site-menu" class="menu-panel hidden">
+              <a class="menu-link" href="index.html">Übersicht</a>
+              <a class="menu-link active" href="waschstrasse.html">Autowäsche</a>
+              <a class="menu-link" href="kraftstoffe.html">Kraftstoffe</a>
+              <a class="menu-link" href="service247.html">24/7 Tankstelle</a>
+              <a class="menu-link" href="shop.html">Shop</a>
+              <a class="menu-link" href="kontakt.html">Kontakt</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-hero">
+      <section class="shell section-space">
+        <div class="reveal text-center">
+          <span class="eyebrow">Waschstraße</span>
+          <h1 class="display-title mt-6">Autowäsche zu fairen Preisen</h1>
+          <p class="lead mx-auto mt-7 max-w-3xl">
+            Unsere Waschstraße bietet Ihnen verschiedene Programme für die schnelle Wäsche im Alltag oder für eine gründlichere
+            Fahrzeugpflege. So können Sie selbst entscheiden, welche Leistungen am besten zu Ihrem Fahrzeug passen.
+          </p>
+        </div>
+
+        <div class="image-frame image-wide reveal mt-10">
+          <img src="bilder/Waschstraße.jpeg" alt="Autowäsche und Fahrzeugpflege an der Tankstelle Oberholzner" />
+        </div>
+      </section>
+
+      <section class="shell pb-8">
+        <div class="surface-panel reveal rounded-[32px] p-7 md:p-9">
+          <span class="badge orange">Waschprogramme</span>
+          <div class="program-stack mt-6">
+            <div class="program-card featured">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">1</span>
+                  <div>
+                    <p class="text-2xl font-extrabold">Waschprogramm 1</p>
+                    <p class="mt-1 text-sm font-semibold text-slate-500">Unser umfangreichstes Pflegeprogramm</p>
+                  </div>
+                </div>
+                <p class="program-price">14,90 €</p>
+              </div>
+              <p class="mt-4 leading-7 text-slate-600">Für alle, die ihr Fahrzeug besonders gründlich reinigen und pflegen möchten.</p>
+              <div class="check-list">
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Waschen</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Hochdruck</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Schaum</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Unterboden</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Wachs</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Felgenwäsche</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Trocknung</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Polierung</span></div>
+              </div>
+            </div>
+
+            <div class="program-card">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">2</span>
+                  <p class="text-2xl font-extrabold">Waschprogramm 2</p>
+                </div>
+                <p class="program-price">11,90 €</p>
+              </div>
+              <p class="mt-4 leading-7 text-slate-600">
+                Eine starke Wahl für alle, die eine gründliche Wäsche mit zusätzlichen Pflegeleistungen möchten.
+              </p>
+              <div class="check-list">
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Waschen</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Hochdruck</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Schaum</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Unterboden</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Wachs</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Felgenwäsche</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Trocknung</span></div>
+              </div>
+            </div>
+
+            <div class="program-card">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">3</span>
+                  <p class="text-2xl font-extrabold">Waschprogramm 3</p>
+                </div>
+                <p class="program-price">10,90 €</p>
+              </div>
+              <p class="mt-4 leading-7 text-slate-600">
+                Eine gute Lösung für eine gründliche Fahrzeugwäsche mit wichtigen Pflegeelementen.
+              </p>
+              <div class="check-list">
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Waschen</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Hochdruck</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Schaum</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Unterboden</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Felgenwäsche</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Trocknung</span></div>
+              </div>
+            </div>
+
+            <div class="program-card">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">4</span>
+                  <p class="text-2xl font-extrabold">Waschprogramm 4</p>
+                </div>
+                <p class="program-price">9,90 €</p>
+              </div>
+              <p class="mt-4 leading-7 text-slate-600">Für eine saubere und gepflegte Wäsche mit Wachs und Felgenreinigung.</p>
+              <div class="check-list">
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Waschen</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Hochdruck</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Schaum</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Wachs</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Felgenwäsche</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Trocknung</span></div>
+              </div>
+            </div>
+
+            <div class="program-card">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">5</span>
+                  <p class="text-2xl font-extrabold">Waschprogramm 5</p>
+                </div>
+                <p class="program-price">8,90 €</p>
+              </div>
+              <p class="mt-4 leading-7 text-slate-600">Ideal für die schnelle und zuverlässige Wäsche im Alltag.</p>
+              <div class="check-list">
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Waschen</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Hochdruck</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Schaum</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Felgenwäsche</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Trocknung</span></div>
+              </div>
+            </div>
+
+            <div class="program-card">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">6</span>
+                  <p class="text-2xl font-extrabold">Waschprogramm 6</p>
+                </div>
+                <p class="program-price">7,90 €</p>
+              </div>
+              <p class="mt-4 leading-7 text-slate-600">Die passende Wahl, wenn es einfach, schnell und unkompliziert sein soll.</p>
+              <div class="check-list">
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Waschen</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Hochdruck</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Felgenwäsche</span></div>
+                <div class="check-item"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.2 7.2a1 1 0 0 1-1.4 0L3.3 9.1a1 1 0 0 1 1.4-1.4l4.1 4.1 6.5-6.5a1 1 0 0 1 1.4 0z"/></svg><span>Trocknung</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shell pb-20">
+        <div class="surface-panel reveal rounded-[32px] p-7 md:p-9">
+          <span class="badge orange">Saugen</span>
+          <h2 class="section-title mt-5">Auch innen schnell wieder sauber</h2>
+          <p class="lead mt-5 max-w-3xl">
+            Für die Innenreinigung stehen unsere Sauger direkt vor Ort bereit. Ideal als Ergänzung zur Autowäsche oder für einen
+            kurzen Stopp zwischendurch.
+          </p>
+          <div class="program-stack mt-8">
+            <div class="program-card compact">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">1</span>
+                  <div>
+                    <p class="text-2xl font-extrabold">Saugtarif 1</p>
+                    <p class="mt-1 text-sm font-semibold text-slate-500">Schnell und unkompliziert</p>
+                  </div>
+                </div>
+                <p class="program-price">50 Cent</p>
+              </div>
+              <p class="leading-7 text-slate-600">
+                Ideal für einen kurzen Innenraum-Check oder als schnelle Ergänzung direkt nach der Wäsche.
+              </p>
+              <div class="vacuum-meta">
+                <span class="badge orange">5 Minuten</span>
+              </div>
+            </div>
+            <div class="program-card compact">
+              <div class="program-head">
+                <div class="program-title">
+                  <span class="number-pill">2</span>
+                  <div>
+                    <p class="text-2xl font-extrabold">Saugtarif 2</p>
+                    <p class="mt-1 text-sm font-semibold text-slate-500">Mehr Zeit für den Innenraum</p>
+                  </div>
+                </div>
+                <p class="program-price">1 Euro</p>
+              </div>
+              <p class="leading-7 text-slate-600">
+                Die passende Wahl, wenn Sitze, Fußraum und Kofferraum etwas gründlicher gereinigt werden sollen.
+              </p>
+              <div class="vacuum-meta">
+                <span class="badge orange">10 Minuten</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shell pb-10">
+        <div class="reveal flex flex-col gap-3 sm:flex-row">
+          <a href="kontakt.html" class="button-primary">Kontakt &amp; Anfahrt</a>
+          <a href="index.html" class="button-secondary">Zur Startseite</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/80 bg-white/70 py-10 backdrop-blur-lg">
+      <div class="shell flex flex-col gap-4 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+        <p>Tankstelle Oberholzner · Waschstraße</p>
+        <div class="flex flex-wrap gap-4">
+          <a class="subnav-link" href="index.html">Übersicht</a>
+          <a class="subnav-link" href="kraftstoffe.html">Kraftstoffe</a>
+          <a class="subnav-link" href="service247.html">24/7 Tankstelle</a>
+          <a class="subnav-link" href="shop.html">Shop</a>
+          <a class="subnav-link" href="impressum.html">Impressum</a>
+          <a class="subnav-link" href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="site.js?v=11"></script>
+  </body>
+</html>

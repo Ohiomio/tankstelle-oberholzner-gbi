@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tankstelle Oberholzner | Firmenkunden</title>
+    <meta
+      name="description"
+      content="Firmenkundenbereich der Tankstelle Oberholzner mit Monatsabrechnungen für Unternehmen und regelmäßige Nutzer."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css?v=27" />
+  </head>
+  <body>
+    <header class="fixed inset-x-0 top-0 z-50 pt-4">
+      <div class="shell glass-nav rounded-[28px] px-4 py-3 md:px-5">
+        <div class="flex items-center justify-between gap-3">
+          <a href="index.html" class="flex items-center gap-3">
+            <img src="bilder/Firmenlogo.svg" alt="Tankstelle Oberholzner Logo" class="logo-image" />
+            <span>
+              <span class="block text-xs font-bold uppercase tracking-[0.24em] text-slate-500">Tankstelle</span>
+              <span class="block text-base font-bold text-slate-900">Oberholzner</span>
+            </span>
+          </a>
+          <nav class="hidden items-center gap-1 lg:flex">
+            <a class="page-nav-link" href="index.html">Start</a>
+            <a class="page-nav-link" href="kraftstoffe.html">Kraftstoffe</a>
+            <a class="page-nav-link" href="waschstrasse.html">Waschstraße</a>
+            <a class="page-nav-link" href="service247.html">24/7</a>
+            <a class="page-nav-link" href="shop.html">Shop</a>
+            <a class="page-nav-link active" href="firmenkunden.html">Firmenkunden</a>
+            <a class="page-nav-link" href="kontakt.html">Kontakt</a>
+          </nav>
+          <div class="header-actions">
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Zum dunklen Modus wechseln" aria-pressed="false">
+              <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" d="M12 3v2.2M12 18.8V21M4.93 4.93l1.56 1.56M17.51 17.51l1.56 1.56M3 12h2.2M18.8 12H21M4.93 19.07l1.56-1.56M17.51 6.49l1.56-1.56" />
+                <circle cx="12" cy="12" r="4.2" />
+              </svg>
+              <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.8 6.8 0 0 0 9.8 9.8Z" />
+              </svg>
+            </button>
+            <button id="mobile-menu-button" class="menu-toggle lg:hidden" aria-label="Menü öffnen" aria-expanded="false">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" /></svg>
+            </button>
+          </div>
+        </div>
+        <div id="mobile-menu" class="hidden pt-3 lg:hidden">
+          <div class="grid gap-2 border-t border-slate-200/70 pt-3">
+            <a class="page-nav-link" href="index.html">Start</a>
+            <a class="page-nav-link" href="kraftstoffe.html">Kraftstoffe</a>
+            <a class="page-nav-link" href="waschstrasse.html">Waschstraße</a>
+            <a class="page-nav-link" href="service247.html">24/7</a>
+            <a class="page-nav-link" href="shop.html">Shop</a>
+            <a class="page-nav-link active" href="firmenkunden.html">Firmenkunden</a>
+            <a class="page-nav-link" href="kontakt.html">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-hero">
+      <section class="shell section-space">
+        <div class="hero-grid">
+          <div class="reveal">
+            <span class="eyebrow">Firmenkunden</span>
+            <h1 class="display-title mt-6">Monatsabrechnungen mit persönlichem und verlässlichem Service.</h1>
+            <p class="lead mt-7 max-w-2xl">
+              Für Unternehmen und regelmäßige Nutzer bieten wir eine unkomplizierte Lösung zur strukturierten Abrechnung. Das schafft
+              mehr Übersicht im Alltag und reduziert den organisatorischen Aufwand bei wiederkehrenden Tankvorgängen.
+            </p>
+            <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+              <a href="kontakt.html" class="button-primary">Jetzt anfragen</a>
+              <a href="index.html" class="button-secondary">Zur Startseite</a>
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="image-frame image-tall">
+              <img src="bilder/Tankstelle von außen (2).jpeg" alt="Außenansicht der Tankstelle für Firmenkundenbereich" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shell pb-20">
+        <div class="split-grid two">
+          <div class="feature-panel reveal rounded-[32px] p-7 md:p-9">
+            <span class="badge">Geeignet für</span>
+            <div class="mt-6 space-y-5">
+              <div class="info-row">
+                <p class="text-xl font-bold">Unternehmen</p>
+                <p class="leading-7 text-slate-600">Für betriebliche Fahrzeuge, regelmäßige Fahrten und planbare Mobilitätsabläufe.</p>
+              </div>
+              <div class="info-row">
+                <p class="text-xl font-bold">Regelmäßige Privatkunden</p>
+                <p class="leading-7 text-slate-600">Auch für Privatkunden interessant, die Wert auf eine übersichtliche Abrechnung legen.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="quiet-panel reveal rounded-[32px] p-7 md:p-9">
+            <p class="text-sm font-bold uppercase tracking-[0.22em] text-slate-500">Vorteile</p>
+            <div class="space-y-5 mt-6">
+              <div class="info-row">
+                <p class="text-xl font-bold">Mehr Übersicht</p>
+                <p class="leading-7 text-slate-600">Tankvorgänge werden nachvollziehbar und im Monatsverlauf einfacher verwaltbar.</p>
+              </div>
+              <div class="info-row">
+                <p class="text-xl font-bold">Weniger Aufwand</p>
+                <p class="leading-7 text-slate-600">Eine strukturierte Abrechnung spart Zeit und erleichtert interne Abläufe.</p>
+              </div>
+              <div class="info-row">
+                <p class="text-xl font-bold">Persönlicher Ansprechpartner</p>
+                <p class="leading-7 text-slate-600">Bei Interesse beraten wir Sie gerne zu einer passenden Lösung für Ihren Bedarf.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/80 bg-white/70 py-10 backdrop-blur-lg">
+      <div class="shell flex flex-col gap-4 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+        <p>Tankstelle Oberholzner · Firmenkunden</p>
+        <div class="flex flex-wrap gap-4">
+          <a class="subnav-link" href="kontakt.html">Kontakt</a>
+          <a class="subnav-link" href="kraftstoffe.html">Kraftstoffe</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="site.js?v=11"></script>
+  </body>
+</html>

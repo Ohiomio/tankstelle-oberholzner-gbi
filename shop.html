@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tankstelle Oberholzner | Shop</title>
+    <meta
+      name="description"
+      content="Shop der Tankstelle Oberholzner in Donauwörth mit Zigaretten, Vapes, Pods, Getränken, Snacks, Kaffee und Autozubehör."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css?v=27" />
+  </head>
+  <body>
+    <header class="fixed inset-x-0 top-0 z-50 pt-4">
+      <div class="shell glass-nav nav-shell rounded-[28px] px-3 py-3 sm:px-4">
+        <div class="header-layout" data-site-menu-root>
+          <a href="index.html" class="inline-flex items-center">
+            <img src="bilder/Firmenlogo.svg" alt="Tankstelle Oberholzner Logo" class="logo-image" />
+          </a>
+
+          <p class="header-title lg:hidden">Shop</p>
+
+          <nav class="hidden items-center justify-center gap-1 lg:flex">
+            <a class="page-nav-link" href="index.html">Übersicht</a>
+            <a class="page-nav-link" href="waschstrasse.html">Autowäsche</a>
+            <a class="page-nav-link" href="kraftstoffe.html">Kraftstoffe</a>
+            <a class="page-nav-link" href="service247.html">24/7 Tankstelle</a>
+            <a class="page-nav-link active" href="shop.html">Shop</a>
+            <a class="page-nav-link" href="kontakt.html">Kontakt</a>
+          </nav>
+
+          <div class="header-actions">
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Zum dunklen Modus wechseln" aria-pressed="false">
+              <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" d="M12 3v2.2M12 18.8V21M4.93 4.93l1.56 1.56M17.51 17.51l1.56 1.56M3 12h2.2M18.8 12H21M4.93 19.07l1.56-1.56M17.51 6.49l1.56-1.56" /><circle cx="12" cy="12" r="4.2" /></svg>
+              <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.8 6.8 0 0 0 9.8 9.8Z" /></svg>
+            </button>
+            <div class="relative lg:hidden">
+            <button id="site-menu-button" class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" /></svg>
+            </button>
+
+            <div id="site-menu" class="menu-panel hidden">
+              <a class="menu-link" href="index.html">Übersicht</a>
+              <a class="menu-link" href="waschstrasse.html">Autowäsche</a>
+              <a class="menu-link" href="kraftstoffe.html">Kraftstoffe</a>
+              <a class="menu-link" href="service247.html">24/7 Tankstelle</a>
+              <a class="menu-link active" href="shop.html">Shop</a>
+              <a class="menu-link" href="kontakt.html">Kontakt</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-hero">
+      <section class="shell section-space">
+        <div class="reveal text-center">
+          <span class="eyebrow">Shop</span>
+          <h1 class="display-title mt-6">Für unterwegs gut aufgestellt</h1>
+          <p class="lead mx-auto mt-7 max-w-3xl">
+            In unserem Shop finden Sie das, was unterwegs oft noch gebraucht wird. Übersichtlich, direkt vor Ort und ohne
+            zusätzlichen Umweg.
+          </p>
+        </div>
+
+        <div class="image-frame image-wide reveal mt-10">
+          <img src="bilder/Shop von innen.jpeg" alt="Kassen- und Shopbereich der Tankstelle Oberholzner" />
+        </div>
+      </section>
+
+      <section class="shell pb-8">
+        <div class="surface-panel reveal rounded-[32px] p-7 md:p-9">
+          <span class="badge orange">Was Sie im Shop finden</span>
+          <p class="mt-5 max-w-3xl leading-8 text-slate-600">
+            Das Sortiment ist klar auf den Alltag unterwegs ausgerichtet. So lässt sich vieles direkt mit dem Tankstopp
+            verbinden, ohne lange Suche und ohne extra Wege.
+          </p>
+          <div class="mt-6 flex flex-col gap-4">
+            <div class="card">
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">
+                <span class="icon-chip warm" aria-hidden="true"><img src="icons/smoke.svg" alt="" /></span>
+                <div>
+                  <p class="text-2xl font-extrabold">Tabakwaren, Vapes und Pods</p>
+                  <p class="mt-3 leading-7 text-slate-600">
+                    Gängige Marken und ausgewählte Produkte sind direkt vor Ort erhältlich und schnell griffbereit.
+                  </p>
+                  <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Zigaretten</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Pods</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Vapes</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Drehbedarf</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">
+                <span class="icon-chip warm" aria-hidden="true"><img src="icons/bottle.svg" alt="" /></span>
+                <div>
+                  <p class="text-2xl font-extrabold">Getränke und Snacks</p>
+                  <p class="mt-3 leading-7 text-slate-600">
+                    Für die Pause zwischendurch oder die Weiterfahrt finden Sie bei uns Getränke und kleine Snacks, die sich
+                    unkompliziert mitnehmen lassen.
+                  </p>
+                  <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Softdrinks</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Energy Drinks</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Wasser</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Süßes &amp; Herzhaftes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">
+                <span class="icon-chip warm" aria-hidden="true"><img src="icons/coffee.svg" alt="" /></span>
+                <div>
+                  <p class="text-2xl font-extrabold">Kaffee und Heißgetränke</p>
+                  <p class="mt-3 leading-7 text-slate-600">
+                    Kaffee, Cappuccino und Espresso gehören für viele einfach dazu und passen gut zum kurzen Halt unterwegs.
+                  </p>
+                  <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Kaffee</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Cappuccino</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Espresso</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">
+                <span class="icon-chip warm" aria-hidden="true"><img src="icons/car.svg" alt="" /></span>
+                <div>
+                  <p class="text-2xl font-extrabold">Autozubehör</p>
+                  <p class="mt-3 leading-7 text-slate-600">
+                    Wichtige Produkte rund ums Fahrzeug bekommen Sie direkt vor Ort, wenn unterwegs noch etwas fehlt.
+                  </p>
+                  <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Motoröl</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Frostschutz</span>
+                    <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700">Pflegeprodukte</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shell pb-8">
+        <div class="surface-panel reveal rounded-[32px] p-7 md:p-9">
+          <span class="badge">Marken im Sortiment</span>
+          <p class="lead mt-5 max-w-3xl">
+            Je nach Verfügbarkeit führen wir bekannte Marken aus den Bereichen Zigaretten, Pods, Getränke, Snacks und
+            Autozubehör. Die Auswahl kann sich im Alltag ändern und wird laufend ergänzt.
+          </p>
+          <div class="mt-8">
+            <div class="brand-group">
+              <p class="brand-group-label">Zigaretten</p>
+              <div class="brand-strip">
+                <span class="brand-chip brand-blue">Chesterfield</span>
+                <span class="brand-chip brand-silver">Gauloises</span>
+                <span class="brand-chip brand-red">Marlboro</span>
+                <span class="brand-chip brand-blue">L&amp;M</span>
+                <span class="brand-chip brand-slate">R1</span>
+                <span class="brand-chip brand-amber">Lucky Strike</span>
+                <span class="brand-chip brand-brown">Pueblo</span>
+                <span class="brand-chip brand-purple">West</span>
+                <span class="brand-chip brand-navy">Winston</span>
+              </div>
+            </div>
+
+            <div class="brand-group">
+              <p class="brand-group-label">Drehbedarf</p>
+              <div class="brand-strip">
+                <span class="brand-chip brand-yellow">GIZEH</span>
+              </div>
+            </div>
+
+            <div class="brand-group">
+              <p class="brand-group-label">Pods</p>
+              <div class="brand-strip">
+                <span class="brand-chip brand-copper">Terea</span>
+                <span class="brand-chip brand-silver">Delia</span>
+                <span class="brand-chip brand-teal">Elfbar</span>
+              </div>
+            </div>
+
+            <div class="brand-group">
+              <p class="brand-group-label">Getränke</p>
+              <div class="brand-strip">
+                <span class="brand-chip brand-cyan">Adelholzener</span>
+                <span class="brand-chip brand-amber">Augustiner</span>
+                <span class="brand-chip brand-green">Beck&#39;s</span>
+                <span class="brand-chip brand-red">Coca-Cola</span>
+                <span class="brand-chip brand-orange">Fanta</span>
+                <span class="brand-chip brand-amber">Hacker-Pschorr</span>
+                <span class="brand-chip brand-navy">Red Bull</span>
+                <span class="brand-chip brand-lime">Monster</span>
+                <span class="brand-chip brand-blue">Paulaner</span>
+                <span class="brand-chip brand-red">Spezi</span>
+                <span class="brand-chip brand-green">Sprite</span>
+                <span class="brand-chip brand-slate">Tawa</span>
+                <span class="brand-chip brand-amber">Unterbaarer</span>
+                <span class="brand-chip brand-cyan">Volvic</span>
+              </div>
+            </div>
+
+            <div class="brand-group">
+              <p class="brand-group-label">Spirituosen</p>
+              <div class="brand-strip">
+                <span class="brand-chip brand-green">Jägermeister</span>
+                <span class="brand-chip brand-amber">Jack Daniel&#39;s</span>
+              </div>
+            </div>
+
+            <div class="brand-group">
+              <p class="brand-group-label">Snacks</p>
+              <div class="brand-strip">
+                <span class="brand-chip brand-red">BiFi</span>
+                <span class="brand-chip brand-brown">Bounty</span>
+                <span class="brand-chip brand-red">Haribo</span>
+                <span class="brand-chip brand-red">Kinder</span>
+                <span class="brand-chip brand-yellow">M&amp;M's</span>
+                <span class="brand-chip brand-red">Mars</span>
+                <span class="brand-chip brand-amber">Snickers</span>
+              </div>
+            </div>
+
+            <div class="brand-group">
+              <p class="brand-group-label">Autozubehör</p>
+              <div class="brand-strip">
+                <span class="brand-chip brand-red">Motul</span>
+                <span class="brand-chip brand-slate">Sonmax</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shell pb-10">
+        <div class="reveal flex flex-col gap-3 sm:flex-row">
+          <a href="kontakt.html" class="button-primary">Kontakt &amp; Anfahrt</a>
+          <a href="index.html" class="button-secondary">Zur Startseite</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/80 bg-white/70 py-10 backdrop-blur-lg">
+      <div class="shell flex flex-col gap-4 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
+        <p>Tankstelle Oberholzner · Shop</p>
+        <div class="flex flex-wrap gap-4">
+          <a class="subnav-link" href="index.html">Übersicht</a>
+          <a class="subnav-link" href="waschstrasse.html">Autowäsche</a>
+          <a class="subnav-link" href="kraftstoffe.html">Kraftstoffe</a>
+          <a class="subnav-link" href="service247.html">24/7 Tankstelle</a>
+          <a class="subnav-link" href="impressum.html">Impressum</a>
+          <a class="subnav-link" href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="site.js?v=11"></script>
+  </body>
+</html>
