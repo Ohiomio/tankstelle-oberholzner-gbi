@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const storageKey = "tankstelle-theme";
+  const storageKey = "tankstelle-theme-v2";
   const themeButtons = document.querySelectorAll("[data-theme-toggle]");
-  const preferredTheme =
-    localStorage.getItem(storageKey) ||
-    (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const preferredTheme = localStorage.getItem(storageKey) || "light";
 
   const applyTheme = (theme) => {
     const isDark = theme === "dark";

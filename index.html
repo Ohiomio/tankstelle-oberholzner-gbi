@@ -9,7 +9,7 @@
       content="Tankstelle Oberholzner in Donauwörth mit Kraftstoffen, Autowäsche, Shop, 24/7 Service, Öffnungszeiten und Kontakt auf einen Blick."
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles.css?v=27" />
+    <link rel="stylesheet" href="styles.css?v=57" />
   </head>
   <body>
     <header class="fixed inset-x-0 top-0 z-50 pt-4">
@@ -59,8 +59,7 @@
     <main class="page-hero">
       <section class="shell section-space">
         <div class="reveal text-center">
-          <span class="eyebrow">Übersicht</span>
-          <h1 class="display-title mt-6">Tankstelle Oberholzner in Donauwörth</h1>
+          <h1 class="display-title home-title">Tankstelle<br />Oberholzner<br /><span>in Donauwörth</span></h1>
           <p class="lead mx-auto mt-7 max-w-3xl">
             Bei uns bekommen Sie alles, was Sie unterwegs brauchen. Kraftstoffe, Autowäsche, Shop und 24/7 Service an einem
             Standort. Schnell erreichbar, unkompliziert und passend für Privatkunden genauso wie für Firmenkunden.
@@ -82,7 +81,16 @@
                   <span class="info-label-icon" aria-hidden="true"><img src="icons/pin.svg" alt="" /></span>
                   Adresse
                 </p>
-                <p class="leading-7 text-slate-600">Sternschanzenstraße 17<br />86609 Donauwörth</p>
+                <p class="leading-7 text-slate-600">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Sternschanzenstra%C3%9Fe+17,+86609+Donauw%C3%B6rth"
+                    target="_blank"
+                    rel="noopener"
+                    class="contact-link address-link"
+                  >
+                    <span class="address-street">Sternschanzenstraße 17</span><br />86609 Donauwörth
+                  </a>
+                </p>
               </div>
               <div class="info-row">
                 <p class="info-label">
@@ -108,9 +116,9 @@
                 href="https://www.google.com/maps/search/?api=1&query=Sternschanzenstra%C3%9Fe+17,+86609+Donauw%C3%B6rth"
                 target="_blank"
                 rel="noopener"
-                class="button-primary"
+                class="button-map"
               >
-                In Google Maps öffnen
+                Google Maps
               </a>
               <a
                 href="https://maps.apple.com/?q=Tankstelle+Oberholzner&address=Sternschanzenstra%C3%9Fe+17,+86609+Donauw%C3%B6rth"
@@ -118,29 +126,21 @@
                 rel="noopener"
                 class="button-map"
               >
-                In Karten öffnen
-              </a>
-              <a
-                href="https://www.google.com/maps/dir/?api=1&destination=Sternschanzenstra%C3%9Fe+17,+86609+Donauw%C3%B6rth"
-                target="_blank"
-                rel="noopener"
-                class="button-map"
-              >
-                Route starten
+                Apple Maps
               </a>
             </div>
           </div>
 
           <div class="feature-panel reveal rounded-[32px] p-7 md:p-9">
             <span class="badge">Öffnungszeiten</span>
-            <div class="mini-grid mt-7">
-              <div class="card">
-                <p class="text-sm font-semibold text-slate-500">Montag bis Freitag</p>
-                <p class="mt-2 text-2xl font-extrabold">07:30 - 18:30 Uhr</p>
+            <div class="opening-times mt-7">
+              <div class="opening-time-item">
+                <p class="opening-time-label">Montag bis Freitag</p>
+                <p class="opening-time-value">07:30 - 18:30 Uhr</p>
               </div>
-              <div class="card">
-                <p class="text-sm font-semibold text-slate-500">Samstag</p>
-                <p class="mt-2 text-2xl font-extrabold">07:30 - 16:30 Uhr</p>
+              <div class="opening-time-item">
+                <p class="opening-time-label">Samstag</p>
+                <p class="opening-time-value">07:30 - 16:30 Uhr</p>
               </div>
             </div>
             <p class="mt-6 leading-8 text-slate-600">
@@ -282,6 +282,6 @@
       </div>
     </footer>
 
-    <script src="site.js?v=11"></script>
+    <script src="site.js?v=12"></script>
   </body>
 </html>
